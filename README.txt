@@ -1,0 +1,1 @@
+Esta carpeta queda preparada para agregar fuentes .woff/.woff2/.ttf propias.\nEl diseño usa Arial/Helvetica como fuentes de sistema para que funcione sin instalar nada.\n
