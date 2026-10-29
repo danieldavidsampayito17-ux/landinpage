@@ -3,52 +3,105 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portafolio creativo de Daniel Sampayo, diseñador gráfico. Diseño visual, identidad de marca y contenido digital.">
   <title>Daniel Sampayo | Diseñador gráfico</title>
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-  <div class="page">
-    <header class="navbar">
-      <a class="brand" href="#inicio">DANIEL SAMPAYO</a>
-      <nav aria-label="Navegación principal">
-        <a href="#contacto">Contacto</a>
-        <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer">Instagram</a>
-        <a href="#portafolio">Portafolio</a>
-        <a href="#acerca">Acerca de</a>
-      </nav>
-    </header>
+  <header class="site-header">
+    <a class="brand" href="#inicio" aria-label="Ir al inicio">DANIEL <span>SAMPAYO.</span></a>
+    <button class="menu-toggle" aria-label="Abrir menú" aria-expanded="false">☰</button>
+    <nav class="navigation" aria-label="Navegación principal">
+      <a href="#sobre-mi">Sobre mí</a>
+      <a href="#servicios">Lo que hago</a>
+      <a href="#proyectos">Proyectos</a>
+      <a class="nav-contact" href="#contacto">Hablemos <span>↗</span></a>
+    </nav>
+  </header>
 
-    <main>
-      <section class="hero panel" id="inicio">
-        <div class="hero-copy">
-          <h1>DANIEL SAMPAYO<br>DISEÑADOR GRAFICO</h1>
-          <a class="cta" href="#contacto">HAZ CLICK YA!</a>
+  <main>
+    <section class="hero section-wrap" id="inicio">
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="status-dot"></span> DISPONIBLE PARA NUEVOS RETOS</p>
+        <h1>Ideas con intención.<br><span>Diseños que conectan.</span></h1>
+        <p class="hero-description">Soy Daniel Sampayo, diseñador gráfico en crecimiento. Transformo ideas en piezas visuales claras, creativas y pensadas para comunicar.</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#proyectos">Explorar mi trabajo <span>↘</span></a>
+          <a class="text-link" href="#sobre-mi">Conóceme mejor <span>→</span></a>
         </div>
-        <img class="portrait" src="img/daniel.jpg" alt="Retrato de Daniel Sampayo">
-      </section>
+        <div class="hero-note"><span class="note-line"></span> Creatividad · Aprendizaje · Compromiso</div>
+      </div>
+      <div class="hero-visual">
+        <div class="visual-glow"></div>
+        <div class="photo-frame">
+          <img src="img/daniel-sampayo.jpeg" alt="Retrato de Daniel Sampayo">
+          <div class="photo-caption"><span class="caption-mark">D.</span><div><strong>Daniel Sampayo</strong><small>Diseñador gráfico</small></div><span class="caption-arrow">↗</span></div>
+        </div>
+        <div class="floating-card card-top"><span class="mini-icon">✳</span><span>Diseño con<br>propósito</span></div>
+        <div class="floating-card card-bottom"><span class="mini-number">01</span><span>Siempre creando<br>algo nuevo</span></div>
+        <div class="decor-circle"></div>
+      </div>
+    </section>
 
-      <section class="cards" id="portafolio" aria-label="Sobre mí, inspiración y metas">
-        <article class="info-card" id="acerca">
-          <img class="avatar" src="img/sobre-mi.jpg" alt="Ilustración representativa de Sobre mí">
-          <h2>Sobre mi</h2>
-          <p>Mi nombre es Daniel y soy un joven diseñador en busca de oportunidades,me gustan los retos y nuevas experiencias.</p>
-        </article>
-        <article class="info-card">
-          <img class="avatar" src="img/inspiracion.jpg" alt="Ilustración representativa de Mi inspiración">
-          <h2>Mi inspiración</h2>
-          <p>Mi inspiración nace de la creatividad, el aprendizaje constante y el deseo de transformar ideas en diseños que transmitan un mensaje. Cada proyecto representa una oportunidad para crecer, innovar y crear soluciones visuales que conecten con las personas y generen un impacto positivo.</p>
-        </article>
-        <article class="info-card">
-          <img class="avatar" src="img/metas.jpg" alt="Ilustración representativa de Metas">
-          <h2>Metas</h2>
-          <p>Mi meta es seguir desarrollando mis habilidades como diseñador, adquirir experiencia en nuevos proyectos y crecer profesionalmente en el mundo creativo. Aspiro a crear trabajos de calidad que reflejen innovación, dedicación y compromiso, aportando valor a cada oportunidad que se presente en mi camino.</p>
-        </article>
-      </section>
-    </main>
+    <section class="intro-strip">
+      <div class="section-wrap strip-inner"><span>DISEÑO GRÁFICO</span><i>✳</i><span>IDENTIDAD VISUAL</span><i>✳</i><span>CONTENIDO DIGITAL</span><i>✳</i><span>IDEAS EN MOVIMIENTO</span></div>
+    </section>
 
-    <footer id="contacto">
-      © DANIEL_JJOD_JJOD 2026 | DESIGN BY MILEING.
-    </footer>
-  </div>
+    <section class="about section-wrap section-space" id="sobre-mi">
+      <div class="section-label"><span>01 / SOBRE MÍ</span><span class="label-line"></span></div>
+      <div class="about-grid">
+        <h2>Curioso por naturaleza.<br><span>Creativo por elección.</span></h2>
+        <div class="about-copy"><p>Me gustan los retos, aprender cosas nuevas y encontrar formas diferentes de comunicar una idea. Cada proyecto es una oportunidad para mejorar, experimentar y crear algo que tenga sentido.</p><p>Estoy construyendo mi camino en el mundo creativo con responsabilidad, atención al detalle y muchas ganas de seguir creciendo.</p><a class="underlined-link" href="#contacto">Hagamos algo juntos <span>↗</span></a></div>
+      </div>
+    </section>
+
+    <section class="services section-space" id="servicios">
+      <div class="section-wrap">
+        <div class="section-label"><span>02 / LO QUE HAGO</span><span class="label-line"></span></div>
+        <div class="section-heading"><h2>Ideas que toman<br><span>forma visual.</span></h2><p>Me interesa crear soluciones gráficas que sean atractivas, útiles y fáciles de entender.</p></div>
+        <div class="service-grid">
+          <article class="service-card"><div class="service-art art-brand"><div class="art-square"></div><div class="art-circle"></div><span>Aa</span></div><div class="service-meta"><span>01</span><span>✳</span></div><h3>Identidad visual</h3><p>Conceptos gráficos para construir una imagen de marca coherente y reconocible.</p></article>
+          <article class="service-card"><div class="service-art art-social"><div class="social-window"><span></span><span></span><span></span><div class="social-shape"></div><div class="social-lines"></div></div><span class="art-sticker">POST<br>01</span></div><div class="service-meta"><span>02</span><span>✳</span></div><h3>Contenido para redes</h3><p>Piezas visuales que ayudan a comunicar, conectar con personas y destacar ideas.</p></article>
+          <article class="service-card"><div class="service-art art-creative"><div class="creative-sun"></div><div class="creative-blob"></div><span class="creative-star">✳</span><span class="creative-type">IDEA<br>→ FORMA</span></div><div class="service-meta"><span>03</span><span>✳</span></div><h3>Diseño creativo</h3><p>Composiciones, afiches y recursos visuales adaptados a cada objetivo.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="projects section-wrap section-space" id="proyectos">
+      <div class="section-label"><span>03 / UNIVERSO CREATIVO</span><span class="label-line"></span></div>
+      <div class="projects-heading"><h2>Inspiración en<br><span>cada detalle.</span></h2><p>Una muestra conceptual de estilos, formas y combinaciones que alimentan mi proceso creativo.</p></div>
+      <div class="project-grid">
+        <article class="project project-large"><div class="project-art project-one"><span class="poster-small">NUEVAS<br>IDEAS</span><span class="poster-big">MAKE<br>IT <i>MATTER.</i></span><span class="poster-circle"></span><span class="poster-foot">CREATIVIDAD EN MOVIMIENTO — 2026</span></div><div class="project-info"><div><h3>Make it matter</h3><p>Composición tipográfica · Concepto visual</p></div><span class="project-index">01 ↗</span></div></article>
+        <article class="project"><div class="project-art project-two"><span class="shape-orbit"></span><span class="shape-pill">NOVA<br>STUDIO</span><span class="shape-star">✳</span><span class="shape-small">IDEAS / IDENTIDAD / IMPACTO</span></div><div class="project-info"><div><h3>NOVA Studio</h3><p>Exploración de identidad de marca</p></div><span class="project-index">02 ↗</span></div></article>
+        <article class="project"><div class="project-art project-three"><span class="type-top">COLOR STUDY / 03</span><div class="color-stack"><i></i><i></i><i></i><i></i></div><span class="type-bottom">FORMAS QUE<br>HABLAN.</span></div><div class="project-info"><div><h3>Formas que hablan</h3><p>Color · Forma · Experimentación</p></div><span class="project-index">03 ↗</span></div></article>
+      </div>
+      <p class="project-disclaimer">Las piezas mostradas son conceptos visuales de muestra creados para presentar este portafolio.</p>
+    </section>
+
+    <section class="goals-band">
+      <div class="section-wrap goals-inner"><div><p class="eyebrow light-eyebrow">MI PRÓXIMO CAPÍTULO</p><h2>Seguir aprendiendo.<br><span>Crear con propósito.</span></h2></div><p>Mi meta es desarrollar mis habilidades, sumar experiencia en nuevos proyectos y aportar ideas que generen valor.</p><div class="goal-star">✳</div></div>
+    </section>
+
+    <section class="contact section-wrap section-space" id="contacto">
+      <div class="section-label"><span>04 / CONTACTO</span><span class="label-line"></span></div>
+      <div class="contact-panel"><div><p class="eyebrow">¿TIENES UNA IDEA?</p><h2>Convirtámosla<br>en algo <span>genial.</span></h2><p class="contact-copy">Estoy abierto a aprender, colaborar y explorar nuevas oportunidades creativas.</p></div><div class="contact-side"><a class="button button-light" href="mailto:tu-correo@ejemplo.com">Escríbeme un correo <span>↗</span></a><p>Reemplaza este correo por tu dirección real antes de publicar.</p><a class="social-link" href="https://www.instagram.com/" target="_blank" rel="noreferrer">Instagram <span>↗</span></a><a class="social-link" href="#proyectos">Portafolio <span>↗</span></a></div><span class="contact-decoration">D.</span></div>
+    </section>
+  </main>
+
+  <footer class="site-footer section-wrap"><a class="brand footer-brand" href="#inicio">DANIEL <span>SAMPAYO.</span></a><p>Diseñado con intención · 2026</p><a href="#inicio" class="back-top">Volver arriba ↑</a></footer>
+  <script>
+    const toggle = document.querySelector('.menu-toggle');
+    const nav = document.querySelector('.navigation');
+    toggle.addEventListener('click', () => {
+      const open = nav.classList.toggle('is-open');
+      toggle.setAttribute('aria-expanded', String(open));
+      toggle.textContent = open ? '✕' : '☰';
+    });
+    nav.querySelectorAll('a').forEach(link => link.addEventListener('click', () => {
+      nav.classList.remove('is-open');
+      toggle.setAttribute('aria-expanded', 'false');
+      toggle.textContent = '☰';
+    }));
+  </script>
 </body>
 </html>

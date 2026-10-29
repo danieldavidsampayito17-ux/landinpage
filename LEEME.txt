@@ -1,0 +1,1 @@
+Carpeta para fuentes locales (.woff2, .woff, .ttf). Actualmente la web usa DM Sans y Manrope desde Google Fonts, con fuentes del sistema como respaldo.
