@@ -1,1 +1,1 @@
-daniel-sampayo.jpeg: foto proporcionada por el usuario. Las ilustraciones de las tarjetas del sitio se construyen con CSS en css/style.css.
+Carpeta para fuentes locales (.woff2, .woff, .ttf). Actualmente la web usa DM Sans y Manrope desde Google Fonts, con fuentes del sistema como respaldo.
